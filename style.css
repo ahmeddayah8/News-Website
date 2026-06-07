@@ -371,8 +371,6 @@ header {
   }
 }
 
-
-
 /* ==========================
    TABLETS (768px - 991px)
 ========================== */
@@ -385,9 +383,9 @@ header {
     margin-inline: 1rem;
   }
   .desktop-menu h1 {
-  font-size: 1rem;
-  font-weight: 700;
-}
+    font-size: 1rem;
+    font-weight: 700;
+  }
 
   .hero-blogs {
     grid-template-columns: repeat(2, 1fr);
@@ -405,21 +403,21 @@ header {
     width: calc(50% - 10px);
   }
 
-    .ciyaaro-blogs .ciyaaro-blog{
-      width: calc(50% - 20px);
-    }
+  .ciyaaro-blogs .ciyaaro-blog {
+    width: calc(50% - 20px);
+  }
   .taariikh-blogs,
   .caafimaad-blogs {
     /* flex-wrap: wrap; */
   }
 
   .caafimaad-blogs .caafimaad-blog .caafimaad-title {
-  color: #141414;
-  font-size: 0.8rem;
-  font-weight: 400;
-  line-height: 1.375;
-  cursor: pointer;
-}
+    color: #141414;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.375;
+    cursor: pointer;
+  }
 
   .ad {
     grid-template-columns: repeat(2, 1fr);
@@ -560,10 +558,18 @@ header {
 
   .fa-x,
   .fa-whatsapp {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   h1 {
     font-size: 1.5rem;
+  }
+
+  .footer .fa-whatsapp {
+    display: none;
+  }
+
+  .footer .fa-x {
+    display: none;
   }
 }
